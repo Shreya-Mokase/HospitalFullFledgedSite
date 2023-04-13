@@ -1,0 +1,259 @@
+.row {
+	height: 114px;
+}
+
+.collapsible {
+	background-color: #fff;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	margin: auto !important;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size: 15px;
+	border: none;
+	outline: none;
+}
+
+.coll {
+	width: 80%;
+	margin: auto;
+}
+
+.active, .collapsible:hover {
+	background-color: #f2f2f2;
+	color: #0080ff !important;
+	border: none;
+	outline: none;
+}
+
+.carousel-inner {
+	z-index: 0;
+}
+
+.carousel-inner img {
+	width: 80%;
+	height: 80%;
+}
+
+.spec-content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	color: #0080ff !important;
+}
+
+.img_wrap {
+	width: 100%;
+	/*max-width: 100%;*/
+	padding: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	transition: all 0.3s;
+}
+
+.img_wrap img {
+	width: 40%;
+}
+
+.search {
+	background-color: rgb(0, 153, 230, 0.2);
+	padding: 20px 0;
+	margin-top: 20px;
+}
+
+.search button {
+	margin-top: 15px;
+}
+
+.search input {
+	height: 40px;
+	width: 60%;
+	border: 2px solid #e6e6e6;
+	font-size: 15px;
+	outline-color: #001f33;
+	border-radius: 15px;
+	padding: 0px 10px;
+}
+
+.search input::placeholder {
+	font-family: poppins !important;
+	font-size: 20px;
+	text-align: center;
+}
+
+.more-about-us {
+	padding: 12px;
+	color: #001f33;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Georgia, serif;
+	font-size: 40px;
+	margin-top: 30px;
+}
+
+.covid {
+	color: #fff;
+	line-height: 35px;
+	background-color: #001f33;
+	padding: 30px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.button {
+	background-color: #001f33;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px;
+	margin-bottom: 60px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	/* Safari */
+	transition-duration: 0.4s;
+	border-radius: 15px;
+}
+
+.form-button {
+	background-color: #001f33;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	/* Safari */
+	transition-duration: 0.4s;
+	border-radius: 15px;
+}
+
+.button1 input:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	background-color: #001f3388;
+	color: white;
+}
+
+.button1 {
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.button2:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.form {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2 !important;
+	display: none;
+}
+
+.form .form-title-container .form-close-button {
+	font-size: 40px;
+	cursor: pointer;
+	width: 10%;
+}
+
+.form .form-title-container .form-title {
+	width: 90%;
+}
+
+.form .form-title-container {
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+.form h1 {
+	font-size: 30px;
+}
+
+.form hr {
+	width: 100%;
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 10px;
+}
+
+.form .form-box {
+	background: #fff;
+	background-size: 90% 90%;
+	background-position: center;
+	height: 80%;
+	padding: 50px;
+	width: 40%;
+	margin: auto;
+	margin: 7% auto;
+	padding: 30px;
+	transition: 0.5s ease;
+	overflow: auto;
+}
+
+.facility-radio-buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+}
+
+.facility-radio-button-option {
+	margin: 5px;
+}
+
+.form input, .form textarea, .form select {
+	border: 1px solid #d9d9d9;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	outline-color: #66ccff;
+}
+
+.form label {
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+@media ( max-width : 900px) {
+	.form .form-box {
+		width: 90%;
+		margin: 15% auto;
+	}
+}
+
+@media ( max-width : 400px) {
+	.form .form-box {
+		width: 90%;
+		margin: 15% auto;
+	}
+}
+
+#unsure-h1 {
+	font-family: poppins !important;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 30px;
+}

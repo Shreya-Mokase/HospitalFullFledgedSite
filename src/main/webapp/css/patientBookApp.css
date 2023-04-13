@@ -1,0 +1,63 @@
+#i2 {
+    height: 114px;
+}
+#create{
+	background-color: blue;
+	border-radius: 30px;
+     box-shadow: 0 0 4px gray,
+                0 0 4px gray,
+                0 0 4px gray,
+                0 0 4px gray;
+}
+#create:hover{
+    transform: scale(1.07);
+    transition: 0.5s ease;
+}
+#back{
+    background: url('bookapp3.jpg') no-repeat;
+    border-bottom: 5px solid #001f33;
+    border-right: 5px solid #001f33;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 4px skyblue,
+                0 0 4px skyblue,
+                0 0 4px skyblue,
+                0 0 4px skyblue;
+}
+#fees{
+    background: transparent;
+}
+label{
+    color: black ;
+}
+#a1{
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    transition: 0.5s ease;
+    animation-delay: 1.2sec;
+}
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+  } 
+
+.form-control{
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid black;
+    border-radius: 0;
+    background: transparent;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.form-control:focus{
+    border-radius: 2px;
+}

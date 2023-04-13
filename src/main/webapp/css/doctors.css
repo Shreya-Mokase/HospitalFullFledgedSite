@@ -1,0 +1,91 @@
+#i2 {
+    height: 114px;
+}
+
+.first {
+    background-color: rgb(0, 153, 255, 0.2);
+    height: 100px;
+    line-height: 75px;
+    vertical-align: middle;
+    font-family: Century Gothic;
+    padding-left: 15px;
+}
+
+#i1 {
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 4s infinite;
+    animation-delay: 1s;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 11ch;
+    }
+}
+
+.info-box {
+    width: 330px !important;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.info-box div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 22px;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.info-box:hover div {
+    width: 315px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+}
+
+.Doctors {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.img-fluid {
+    border-radius: 10px;
+    height: 380px;
+    width: 330px;
+    box-shadow: 0px 0px 10px 1px rgb(150, 150, 150);
+}
+
+#i3 {
+    font-family: poppins;
+    color: black;
+    font-size: 20px;
+    opacity: 0.9;
+    margin-left: 80px;
+}
+
+#i4 {
+    color: white;
+    text-decoration: none;
+}
+
+#i4:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+#break {
+    display: none;
+}

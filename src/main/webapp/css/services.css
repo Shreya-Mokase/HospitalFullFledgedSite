@@ -1,0 +1,55 @@
+#i2 {
+    height: 114px;
+}
+
+.first {
+    background-color: rgb(0, 153, 255, 0.2);
+    height: 100px;
+    line-height: 75px;
+    vertical-align: middle;
+    font-family: Century Gothic;
+    padding-left: 15px;
+}
+
+#i1 {
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s infinite;
+    animation-delay: 1s;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 27ch;
+    }
+}
+
+.img-fluid {
+    width: 450px;
+    height: 280px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(150, 150, 150);
+}
+
+#i3 {
+    font-family: poppins;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.col-sm-4:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.service {
+    padding-left: 70px;
+    padding-right: 70px;
+}

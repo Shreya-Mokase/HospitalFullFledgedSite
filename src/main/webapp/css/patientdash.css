@@ -1,0 +1,70 @@
+.MainContent{
+	height: 100vh;
+}
+
+#i2 {
+    height: 114px;
+}
+
+@keyframes text {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 20ch;
+    }
+}
+
+ html, body{
+  
+  background-position: 50% 10%;
+  background-size: cover;
+}
+
+
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        right: 20%;
+    }
+    100%{
+        opacity: 1;
+        right: 0;
+    }
+}
+#op1{
+    background: whitesmoke;
+    border-radius: 20px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    box-shadow: 0 0 6px black;
+   
+}
+@keyframes fadeUp {
+    0%{
+        opacity: 0;
+        right: 20%;
+    }
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
+#img{
+    width: 150px;
+    height: 140px;
+    animation: fadeUp 4s ease forwards;
+}
+#link{
+    color: blue;
+    text-decoration: none;
+}
+
+#op1:hover{
+    transform: scale(1.08);
+    transition: 1s ease ;
+    box-shadow: 0 0 4px red;
+}
+.padd{
+   margin-left: 130px;
+}

@@ -1,0 +1,10 @@
+.MainBody h1 {
+	color: #001f33;
+	margin-top: 40px;
+	margin-bottom: revert;
+	font-size: 50px;
+}
+
+.MainBody {
+	height: 80vh;
+}
